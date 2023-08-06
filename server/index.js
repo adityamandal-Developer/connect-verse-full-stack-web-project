@@ -32,6 +32,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors({
   origin: ["https://connnectverse.vercel.app/", "http://localhost:3000/"],
 }));
+app.options("*", cors());
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 /* FILE STORAGE */
