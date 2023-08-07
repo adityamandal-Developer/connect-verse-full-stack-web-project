@@ -25,7 +25,8 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to connnectVerse, the Social Media for people to connect!
+          Welcome to connnectVerse, the Social Media for people to connect!<br/>
+          Other features will be comming soon!
         </Typography>
         <Form />
       </Box>
