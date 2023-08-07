@@ -68,6 +68,7 @@ const Form = () => {
       {
         method: "POST",
         body: formData,
+        credentials: 'include',
       }
     );
     const savedUser = await savedUserResponse.json();
